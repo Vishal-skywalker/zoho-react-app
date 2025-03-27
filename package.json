@@ -6,7 +6,7 @@
   "import": "json",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node createArchive.js",
+    "build": "eslint . && vite build && node createArchive.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
